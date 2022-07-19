@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body{
+  display: flex;
+  font-family: 'Lato', sans-serif;
+}
+.week-forecast-window{
+  width: 60%;
+  background-color: #F3FBFF;
+}
+.today-weather-forecast{
+  width: 40%;
+  background-color: #110E3C;
+}
