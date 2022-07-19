@@ -1,0 +1,27 @@
+header{
+  padding: 50px 20px 40px 20px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notification{
+  margin-right: 20px;
+}
+.notification::after{
+  content: "4";
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+}
+.container{
+  display: flex;
+  margin-left: 10px;
+}
+img{
+  border-radius: 10px;
+  width: 69px;
+  height: 64px;
+}
